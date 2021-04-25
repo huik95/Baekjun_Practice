@@ -12,4 +12,3 @@ for i in num_list:
         n_min = i
 
 print (n_min, n_max, end='')
-
