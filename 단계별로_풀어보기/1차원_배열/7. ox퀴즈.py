@@ -1,5 +1,5 @@
 n = int(input())
-for i in range(n):
+for _ in range(n):
     a = list(input())
     sum = 0
     b = 1

@@ -1,0 +1,7 @@
+a = int(input())
+b = int(input())
+
+out1 = a*(b%10)
+out2 = a*((b%100)//10)
+out3 = a*(b//100)
+print(out1, out2, out3, a*b, sep='\n')
