@@ -1,0 +1,7 @@
+h, m = map(int, input().split())
+
+#time은 시간을 분으로 나타내 45분을 뺀 것
+time = h*60+m-45
+if time<0:
+    time += 1440
+print(time//60, time%60)
